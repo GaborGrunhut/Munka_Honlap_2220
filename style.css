@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+body{background-color: #bac5dd;
+            }
+    
+#container {
+                max-width: 1312px;
+                width: 100%;
+                margin:0 auto;
+            }
+#header{
+                background: url(Pics/picture1.jpg);
+                height: 580px;
+            }
+
+#container #header h1 {color: white;
+                font-size: 50px;
+                padding: 300px 400px
+            }
+#main{
+        background-color: #5473b4;
+        max-width: 1312px;
+        margin: 0 auto;
+    }
+
+#main::after, p::after, #footer::after{
+    content:'';
+    clear:both;
+    display: table;
+}
+
+#nav{
+    height: 15%;
+    
+}
+#nav ul{
+        list-style: none;
+        padding: 30px 90px;
+    }
+#nav li{
+        float: left;
+        padding: 5px 40px;
+            }
+#nav a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-decoration: none;
+        text-align: center;
+        color:white;
+        display: block;
+        padding: 10px 30px;
+    }
+
+.button{
+        background-color: #5473b4;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 30px;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+              }
+
+.dropdown{
+        position: relative;
+        display: inline-block;
+              }
+    
+.dropdown-menu{
+        display: none;
+        position: absolute;
+        background-color: #5473b4;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+.dropdown-menu a{
+        color: white;
+        padding: 30px 30px;
+        text-decoration: none;
+        display: block;
+      }
+.dropdown-menu a:hover{
+    background-color: #5473b4;
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+#content{
+        max-width: 1312px;
+        margin: 0 auto;
+        float:left;
+        background-color: white;
+
+    }
+#content p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1,5;
+        font-size: 15px;
+}
+
+.jobb{
+        max-width: 1312px;
+        margin: 0 auto;
+        float:right;
+        padding: 0 0 0 0;
+      
+    }
+.bal{
+        max-width: 1312px;
+        margin: 0 auto;
+        float:left;
+        padding: 0 0 0 0;
+        
+    }
+#footer p{
+        
+        background-color: white;
+        color: grey;
+        font-size: 10px;
+        padding: 10% 20%;
+    }
